@@ -1,0 +1,44 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.app-title {
+  font-size: 24px;
+}
+
+.video-list {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.video-card {
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.video-card:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.video-card-selected {
+  background-color: rgb(157, 149, 28) !important;
+  color: white;
+}
